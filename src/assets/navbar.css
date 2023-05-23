@@ -1,28 +1,32 @@
 .nav-text {
   list-style-type: none;
-
-  padding: 20px 30px;
+  padding: 10px 0px;
 }
 a {
   text-decoration: none;
 }
 .navbar__link {
   color: #a098ae;
+  padding-inline-start: 40px;
 }
 .navbar__link:hover {
   color: #f8b602;
 }
 .navbar__link.active {
+  color: aliceblue;
+}
+.title {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-text:has(a.active) {
   background-color: #f8b602;
   border-radius: 16px;
   color: aliceblue;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
-ul {
-  padding: 0px;
-}
-.title {
-  padding: 20px;
+/* Vector */
+.restaurant {
+  background-image: url(images/restaurant.png);
 }

@@ -19,4 +19,28 @@ export const SidebarData = [
     // icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
   },
+  {
+    title: "Message",
+    path: "/productssvgb",
+    // icon: <FaIcons.FaCartPlus />,
+    cName: "nav-text",
+  },
+  {
+    title: "Order History",
+    path: "/productsdfg",
+    // icon: <FaIcons.FaCartPlus />,
+    cName: "nav-text",
+  },
+  {
+    title: "Bill",
+    path: "/productssdfgt",
+    // icon: <FaIcons.FaCartPlus />,
+    cName: "nav-text",
+  },
+  {
+    title: "Setting",
+    path: "/productsdefrgt",
+    // icon: <FaIcons.FaCartPlus />,
+    cName: "nav-text",
+  },
 ];
