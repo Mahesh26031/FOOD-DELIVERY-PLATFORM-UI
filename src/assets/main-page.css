@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.sticky-step-header {
+  padding: 30px 20px;
+  border-right: solid 1px rgba(0, 0, 0, 0.1);
+}
+.header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+.header-dot {
+  color: #f8b602;
+}
+.step-wizard {
+  padding: 20px 0px;
+}

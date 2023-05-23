@@ -1,0 +1,28 @@
+.nav-text {
+  list-style-type: none;
+
+  padding: 20px 30px;
+}
+a {
+  text-decoration: none;
+}
+.navbar__link {
+  color: #a098ae;
+}
+.navbar__link:hover {
+  color: #f8b602;
+}
+.navbar__link.active {
+  background-color: #f8b602;
+  border-radius: 16px;
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding: 0px;
+}
+.title {
+  padding: 20px;
+}
