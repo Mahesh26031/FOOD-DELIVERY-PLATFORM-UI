@@ -62,8 +62,10 @@
   width: 100px;
   height: 100px;
   transform: rotate(-45deg);
-  /* margin-left: 20px; */
-  position: fixed;
-  top: 155px;
-  left: 150px;
+  margin-bottom: -100px;
+  /* top: 155px; */
+  /* left: 150px; */
+  position: relative;
+  left: 100px;
+  top: -50px;
 }

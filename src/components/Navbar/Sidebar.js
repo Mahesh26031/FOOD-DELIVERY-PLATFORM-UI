@@ -38,7 +38,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Setting",
+    title: "Settings",
     path: "/productsdefrgt",
     icon: "https://www.linkpicture.com/q/settings_3.png",
     cName: "nav-text",
