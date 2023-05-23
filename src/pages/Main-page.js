@@ -18,6 +18,19 @@ function Main() {
           <div className="step-wizard">
             <Navbar />
           </div>
+          <div className="upgrade-voucher">
+            <div className="flex-container">
+              <p className="voucher-text">
+                Upgrade your Account to Get Free Voucher
+              </p>
+              <img
+                src="https://www.linkpicture.com/q/Untitled-Diagram.drawio-4_1.png"
+                className="dots"
+              />
+            </div>
+            <button className="upgrade-account">Upgrade</button>
+            {/* <div id="circle"></div> */}
+          </div>
         </div>
         <div className="home">
           <Routes>

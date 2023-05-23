@@ -19,7 +19,7 @@ function Navbar() {
                   className="navbar__link"
                   to={item.path}
                 >
-                  <img src="../../assets/images/restaurant.png" />
+                  <img src={item.icon} alt="" />
                   <span className="title">{item.title}</span>
                 </NavLink>
               </li>

@@ -1,13 +1,15 @@
 .nav-text {
   list-style-type: none;
-  padding: 10px 0px;
+  padding: 10px 5px;
+  margin-bottom: 10px;
 }
 a {
   text-decoration: none;
 }
 .navbar__link {
   color: #a098ae;
-  padding-inline-start: 40px;
+  align-items: center;
+  display: flex;
 }
 .navbar__link:hover {
   color: #f8b602;
@@ -17,7 +19,7 @@ a {
 }
 .title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .nav-text:has(a.active) {
@@ -26,7 +28,13 @@ a {
   color: aliceblue;
 }
 
-/* Vector */
-.restaurant {
-  background-image: url(images/restaurant.png);
+img {
+  width: 8%;
+  height: 8%;
+  padding-right: 20px;
+  padding-left: 20px;
+  filter: opacity(0.5) drop-shadow(0 0 white);
+}
+ul {
+  padding-inline-start: 10px;
 }

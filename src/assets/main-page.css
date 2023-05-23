@@ -23,3 +23,47 @@
 .step-wizard {
   padding: 20px 0px;
 }
+.upgrade-voucher {
+  background-color: #f8b602;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 5px 10px 20px 20px;
+}
+.voucher-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+.dots {
+  filter: unset;
+  padding: 10px 0px 0px 0px;
+  width: 15%;
+}
+.flex-container {
+  display: flex;
+}
+.upgrade-account {
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+#circle {
+  background: linear-gradient(
+    173.01deg,
+    #ffffff -74.62%,
+    rgba(255, 255, 255, 0.892708) -56.47%,
+    rgba(255, 255, 255, 0) 94.54%,
+    rgba(255, 255, 255, 0) 94.54%
+  );
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  /* margin-left: 20px; */
+  position: fixed;
+  top: 155px;
+  left: 150px;
+}
