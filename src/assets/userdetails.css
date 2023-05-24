@@ -1,0 +1,29 @@
+.user-icons {
+  height: 20px;
+  width: 20px;
+  padding-right: 0px;
+  filter: none;
+}
+
+.small-circle {
+  background-color: #f8b602;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}
+.user-link {
+  display: flex;
+}
+.user-detail-icons {
+  display: flex;
+}
+.user-name {
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #a098ae;
+  cursor: pointer;
+}
+.user-name:hover {
+  color: #f8b602;
+}

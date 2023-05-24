@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home";
 import Reports from "./Reports";
 import Products from "./Products";
-
+import UserDetails from "../components/UserDetails/UserDetails";
 function Main() {
   return (
     <div className="App">
@@ -41,7 +41,7 @@ function Main() {
           </Routes>
         </div>
         <div className="user-details">
-          <p>hello3</p>
+          <UserDetails />
         </div>
       </div>
     </div>
