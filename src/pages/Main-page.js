@@ -4,7 +4,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import ErrorPage from "../pages/Errorpage";
 import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home";
-import Reports from "./Reports";
+import OrderHistoryPage from "./OrderHistoryPage";
 import Products from "./Products";
 import UserDetails from "../components/UserDetails/UserDetails";
 function Main() {
@@ -26,6 +26,7 @@ function Main() {
               <img
                 src="https://www.linkpicture.com/q/Untitled-Diagram.drawio-4_1.png"
                 className="dots"
+                alt=""
               />
             </div>
             <button className="upgrade-account">Upgrade</button>
@@ -35,7 +36,7 @@ function Main() {
         <div className="home">
           <Routes>
             <Route path="/" exact element={<Home />} />
-            <Route path="/reports" element={<Reports />} />
+            <Route path="/history" element={<OrderHistoryPage />} />
             <Route path="/products" element={<Products />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>

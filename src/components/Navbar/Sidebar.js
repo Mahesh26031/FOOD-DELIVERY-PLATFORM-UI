@@ -1,5 +1,3 @@
-import React from "react";
-
 export const SidebarData = [
   {
     title: "Dashoard",
@@ -9,7 +7,7 @@ export const SidebarData = [
   },
   {
     title: "Food Order",
-    path: "/reports",
+    path: "/order",
     icon: "https://www.linkpicture.com/q/scooter.png",
     cName: "nav-text",
   },
@@ -27,7 +25,7 @@ export const SidebarData = [
   },
   {
     title: "Order History",
-    path: "/productsdfg",
+    path: "/history",
     icon: "https://www.linkpicture.com/q/food-service.png",
     cName: "nav-text",
   },

@@ -36,7 +36,8 @@
 }
 .dots {
   filter: unset;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 0px 10px;
+  height: 8%;
   width: 15%;
 }
 .flex-container {
