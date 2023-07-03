@@ -4,7 +4,7 @@ import "../../assets/navbar.css";
 import { Userjson } from "./Userjson";
 import { NavLink } from "react-router-dom";
 import "../../assets/userdetails.css";
-import Login from "../Authentication/Login";
+import Login from "../Authentication/authenticate";
 import { triggerLoginModal } from "../../helpers/utils";
 import { useDispatch, useSelector } from "react-redux";
 // import { useDispatch, useSelector } from "react-redux";
