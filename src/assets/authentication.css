@@ -25,6 +25,10 @@
 
   left: 35%;
   top: 10%;
+  @media (max-width: 767px) {
+    left: 5%;
+    width: 320px;
+  }
 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   width: 400px;

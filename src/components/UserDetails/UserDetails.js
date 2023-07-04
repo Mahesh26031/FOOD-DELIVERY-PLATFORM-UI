@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../assets/navbar.css";
 
 import { Userjson } from "./Userjson";
@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import "../../assets/userdetails.css";
 import Login from "../Authentication/authenticate";
 import { triggerLoginModal } from "../../helpers/utils";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 // import { useDispatch, useSelector } from "react-redux";
 
 // const { user: currentUser } = useSelector((state) => state.auth);

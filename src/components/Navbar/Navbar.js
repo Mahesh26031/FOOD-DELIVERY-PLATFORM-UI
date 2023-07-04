@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../assets/navbar.css";
-import { Link } from "react-router-dom";
 import { SidebarData } from "./Sidebar";
 import { NavLink } from "react-router-dom";
 
@@ -19,7 +18,7 @@ function Navbar() {
                   className="navbar__link"
                   to={item.path}
                 >
-                  <img src={item.icon} alt="" className="nav-icon"/>
+                  <img src={item.icon} alt="" className="nav-icon" />
                   <span className="title">{item.title}</span>
                 </NavLink>
               </li>

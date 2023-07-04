@@ -1,36 +1,51 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "../assets/main-page.css";
-import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import ErrorPage from "../pages/Errorpage";
-import Navbar from "../components/Navbar/Navbar";
 import Home from "./Home";
 import OrderHistoryPage from "./OrderHistoryPage";
 import Products from "./Products";
 import UserDetails from "../components/UserDetails/UserDetails";
+import NavDropdown from "../components/Navbar/NavDropdown";
+
 function Main() {
+  const [isdropdownOpen, setisdropdownOpen] = useState(false);
+  const handledropdown = () => {
+    setisdropdownOpen(!isdropdownOpen);
+  };
   return (
     <div className="App">
       <div className="container">
-        <div className="sticky-step-header">
-          <div className="header">
-            GoMeal<span className="header-dot">.</span>
-          </div>
-          <div className="step-wizard">
-            <Navbar />
-          </div>
-          <div className="upgrade-voucher">
-            <div className="flex-container">
-              <p className="voucher-text">
-                Upgrade your Account to Get Free Voucher
-              </p>
+        <div className="left-header">
+          <NavDropdown />
+        </div>
+        <div className="mobile-header">
+          <div className="left-slide">
+            {" "}
+            <button className="drop-down-modal" onClick={handledropdown}>
               <img
-                src="https://www.linkpicture.com/q/Untitled-Diagram.drawio-4_1.png"
-                className="dots"
-                alt=""
+                src="https://www.linkpicture.com/q/pngwing.com_12.png"
+                className="drop-down-button"
               />
-            </div>
-            <button className="upgrade-account">Upgrade</button>
-            {/* <div id="circle"></div> */}
+            </button>
+          </div>
+          <div className="right-slide">
+            <UserDetails />
+          </div>
+          <div
+            className={`mobile-drop-down ${
+              isdropdownOpen ? "drop-down-show" : ""
+            }`}
+          >
+            <button className="drop-modal-close">
+              <img
+                src="https://www.linkpicture.com/q/cancel_3.png"
+                className="login-cancel"
+                onClick={handledropdown}
+              />
+            </button>
+            {isdropdownOpen && <NavDropdown />}
           </div>
         </div>
         <div className="home">

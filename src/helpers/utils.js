@@ -4,4 +4,8 @@ function triggerLoginModal() {
   store.dispatch(setLoginModalVisible(true));
 }
 
-export { triggerLoginModal };
+function triggerCloseLoginModal() {
+  store.dispatch(setLoginModalVisible(false));
+}
+
+export { triggerLoginModal, triggerCloseLoginModal };

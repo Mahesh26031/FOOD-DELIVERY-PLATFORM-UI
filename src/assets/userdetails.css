@@ -14,6 +14,9 @@
 }
 .user-link {
   display: flex;
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 .user-detail-icons {
   display: flex;
